@@ -9,7 +9,6 @@ import numpy as np
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
-from streamlit_extras.app_logo import add_logo
 from PIL import Image
 from streamlit_extras.let_it_rain import rain
 
