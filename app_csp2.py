@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 from PIL import Image
-from streamlit_extras.let_it_rain import rain
+# from streamlit_extras.let_it_rain import rain // issue with deploy
 
 # loading the saved models
 
@@ -153,13 +153,13 @@ if selected == 'Cloud Seeding Program':
 
 ##########################################################################
 # rain animation
-def example():
-    rain(
-        emoji="💧",
-        font_size=25,
-        falling_speed=2,
-        animation_length="infinite",
-    )
+#def example():
+ #   rain(
+  #      emoji="💧",
+   #     font_size=25,
+    #    falling_speed=2,
+     #   animation_length="infinite",
+    #)
 ##########################################################################
 
 
